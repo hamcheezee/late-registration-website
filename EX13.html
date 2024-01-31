@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/่x-icon" href="/images/logo.png" />
+    <meta name="description" content="เว็บเกี่ยวกับเขียนฟอมคำร้องขอเพิ่ม-ถอน รายวิชา">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <script src="/public/js/controller.js"></script>
+  </head>
+  <body class="config">
+    <div class="pos-f-t">
+      <!--header-->
+      <form action="/logout" method="POST"> <!--logout action-->
+        <nav class="navbar">
+          <!-- Just an image -->
+          <a class="navbar-brand">
+              <img src="/images/tu2.png" alt="logo">
+              <span>:บุคคลากร</span>
+          </a>
+          <a>
+            <div class="input-group">
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                     style="border-radius: .2rem;" readonly>
+              <div class="input-group-prepend">
+                  <button class="btn" style="border-radius: .2rem;" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+              </div>
+            </div>
+          </a>
+          <button class="btn"type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  <i class="bi bi-list"></i>
+          </button>
+          <div class="container-fluid navss">
+          <div class="navbar-collapse collapse" id="collapseExample">
+            <dl class="row">
+              <dd class="col-sm-3" style="text-align: left; padding: 2% 0% 0% 2%;">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="bi bi-person-circle"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" readonly>
+                </div>
+              </dd>
+              <dd class="col-sm-9" style="text-align: right; padding: 2% 2% 0% 0%;">
+                <button type="submit" class="btn">logout</button>
+              </dd>
+            </dl>
+          </div>
+          </div>
+        </nav>
+      </form>
+        <div class="topnav">
+          <a class="active" ></a>
+        </div>
+        <div class="topnav1">
+          <a class="active" ></a>
+        </div>
+        <br>
+      <div class="container-fulid">
+
+            <div class="container-fluid mt-3 d-flex justify-content-center">
+              <div class="card bg-secondary text-white" style="width:400px">
+                <img class="card-img-top mx-auto d-block" src="https://cdn.icon-icons.com/icons2/2643/PNG/512/female_woman_person_people_avatar_icon_159366.png" alt="Card image" style="width:100px;">
+                <div class="card-body ">
+                  <h4 class="card-title" style="font-family: 'IBM Plex Sans Thai', cursive;">Staff</h4>
+                  <p class="card-text" style="font-family: 'IBM Plex Sans Thai', cursive;">บุคลากรมหาวิทยาลัยธรรมศาสตร์</p>
+
+                  <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample1"
+                  aria-expanded="false" aria-controls="collapseExample1">See Profile</button>
+                  <div class="collapse" id="collapseExample1">
+                    <br>
+                    <h5 style="color: black;"><b>Navis</b></h5>
+                    <h7>เจ้าหน้าที่ประจำภาควิชาวิทยาการคอมพิวเตอร์</h7>
+                    <br>
+                    <h7>คณะวิทยาศาสตร์และเทคโนโลยี</h7>
+                    <br>
+                    <h7>มหาวิทยาลัยธรรมศาสตร์</h7s>
+                  </div>
+                </div>
+              </div>
+              <br>
+            </div>
+
+            <br><br><br>
+
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active bg-warning text-white" href="#" style="font-family: 'IBM Plex Sans Thai', cursive;"><b>คำร้องที่ 1</b></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#" style="font-family: 'IBM Plex Sans Thai', cursive;"><b>คำร้องที่ 2</b></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#" style="font-family: 'IBM Plex Sans Thai', cursive;"><b>คำร้องที่ 3</b></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#" style="font-family: 'IBM Plex Sans Thai', cursive;"><b>คำร้องที่ 4</b></a>
+              </li>
+            </ul>
+        <div class="topnav0" >
+            <a class="active"></a>
+        </div>
+        <div class="topnav01">
+            <a class="active"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+/*config body*/
+.config{
+  background: url("/images/bg2.jpg") repeat fixed 0 0;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  position: relative;
+  text-shadow: none!important;
+  color: #555;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+  /* navbar */
+.navbar {
+    background-color: #b6b6c2;
+    
+}
+.btn {
+  background-color: #ffd13f;
+  color: black;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+.btn:hover {
+  background-color: #C3002F;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+  /* config logo */
+.navbar-brand img {
+    width : 190px ;
+    height : 47px ;
+}
+.navbar-brand small {
+    font-size: 50px;
+}
+.topnav {
+  background-color: #D21404;
+  height: 10px;
+ }
+.topnav1 {
+  background-color: #FDCE2A;
+  height: 25px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+.container {
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+  background: rgba(253, 253, 253, 0.678);
+  border: 3px solid;
+  border-image: linear-gradient(45deg, #fdce2f, #d21404) 1;
+}
+.headtext p {
+  font-size: 30px;
+  text-align: center;
+}
+.endtext p {
+  font-size: 20px;
+  text-align: center;
+}
+.container-fluid {
+  text-align: center;
+}
+.bbutton {
+  background-color: #fdce2f;
+  color: black;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+.bbutton:hover {
+  background-color: #d21404;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+.sbtn {
+  background-color: #d21404;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+.sbtn:hover {
+  background-color: #fdce2f;
+  color: black;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+.topnav0 {
+  background-color: #D21404;
+  height: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+  overflow: hidden;
+  position: fixed;
+  bottom: 25px;
+  width: 100%;
+}
+.topnav01 {
+  background-color: #FDCE2A;
+  height: 25px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+  bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.succes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+/*cofig-summit*/
+.config1 {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  position: relative;
+  text-shadow: none!important;
+  color: #555;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.succestext p {
+  font-size: 30px;
+  text-align: center;
+  color: green;
+}
+.navss {
+  text-align: justify;
+  background-color: white;
+  border-radius: .5rem;
+}

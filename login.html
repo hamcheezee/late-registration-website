@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>คำร้องจดทะเบียนล่าช้า</title>
+
+	<!--font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+
+  	<link rel="shortcut icon" type="image/่x-icon" href="logo.png" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/3fe7cb7428.js" crossorigin="anonymous"></script>
+
+	<style>
+		body {
+    		background: url("bg.jpg") repeat fixed 0 0;
+    		background-size: auto;
+    		position: relative;
+    		text-shadow: none!important;
+    		color: #555;
+		}	
+		.wrapper {
+    		padding-top: 35px;
+  		}
+		.wrapper2 {
+		    max-width: 700px;
+			width: 100%;
+			background-color: #B6B6C2;
+			background-blend-mode: difference;
+  			border-radius: 5px;
+  			height: 100px;
+		}
+		.wrapper3 {
+		    max-width: 700px;
+			width: 100%;
+			margin: 20px auto;
+			background-color: #FDCE2A;
+  			border-radius: 5px;
+  			height: 370px;
+		}	
+		.wrapper4{
+			padding: 10px;
+		}
+		.wrapper5{
+			text-align: center;
+		}
+		.wrapper6{
+			padding: 23px;
+			padding-left: 20px;
+		}
+		.topnav {
+    		background-color: #B6B6C2;
+    		height: 40px;
+  		}
+  		.topnav2 {
+  			background-color: #D21404;
+    		height: 10px;
+  		}
+  		.topnav3 {
+    		background-color: #FDCE2A;
+    		height: 25px;
+  		}
+  		h2 {
+  			color: black;
+  			font-family: 'IBM Plex Sans Thai', cursive;
+  			font-weight: bold;
+  			font-size: 40px;
+  		}
+  		.imgwrap {
+    		padding-top: 70px;
+    		padding-left: 497px;
+    	}
+    	.navbar2 {
+  			overflow: hidden;
+    		position: fixed;
+     		bottom: 2.8%;
+     		width: 100%;
+     		background-color: #D21404;
+     		height: 10px;
+		}
+		.navbar2 a {
+  			float: left;
+  			display: block;
+  			color: #D21404;
+		}	
+    	.navbar3 {
+  			overflow: hidden;
+     		position: fixed;
+     		bottom: 0;
+    		width: 100%;
+     		background-color: #FDCE2A;
+      		height: 25px;
+		}
+		.navbar3 a {
+  			float: left;
+  			display: block;
+  			color: #FDCE2A;
+		}	
+
+	</style>
+</head>
+<body>
+	<div class="topnav">
+		<a class="active" href="#logout"></a>
+		<i class="fas fa-bars" style="font-size:30px; color:white; float: right; padding-right: 20px; padding-top: 6px;"></i>
+	</div>
+
+	<div class="topnav2">
+		<a class="active" href="#logout"></a>
+	</div>
+
+	<div class="topnav3">
+		<a class="active" href="#logout"></a>
+	</div>
+
+	<div class="wrapper">
+
+		<div class="container mt-5" style="text-align: center;">
+			<h2>ยื่นคำร้องจดทะเบียนล่าช้า</h2>
+			<h2 style="padding-top: 0px;">THAMMASAT UNIVERSITY</h2>
+		</div>
+
+		<div class="wrapper3">
+			<div class="wrapper2">
+				<div class="wrapper6">
+					<i class="fas fa-square-full" style="font-size:30px; color: lightgray;"></i>
+					<i class="fas fa-square-full" style="font-size:30px; color: lightgray; float: right;"></i>
+
+					<div class="wrapper5">
+						<img src="logo.png" alt="Logo" style="width: 100px;">
+					</div>
+				</div>
+			
+				<!--div class="wrapper5">
+					<img src="logo.png" alt="Logo" style="width: 100px;">
+				</div-->
+			</div>
+
+			<div class="wrapper4">
+				<div class="container mt-5" style="text-align: center;">
+					<form action= "/login" method="POST">
+        				<div class="mb-3 mt-3">
+            				<label for="id"></label>
+            				<input type="text" class="form-control" id="username" autocomplete="off" placeholder="เลขทะเบียนนักศึกษา/รหัสผู้ใช้" name="username" style="font-family: 'IBM Plex Sans Thai', cursive;" required>
+        				</div>
+
+        				<div class="mb-3">
+            				<label for="password"></label>
+            				<input type="password" class="form-control" id="password" autocomplete="off" placeholder="รหัสผ่าน" name="password" style="font-family: 'IBM Plex Sans Thai', cursive;" required>
+        				</div>
+
+        				<button type="submit" class="btn btn-primary" style="background-color: #D21404; border-color: #D21404;">Submit</button>
+      				</form>
+      			</div> 
+			</div>
+		</div>
+	</div>
+
+	<div class="navbar2">
+  		<a href="#home" class="active"></a>
+	</div>
+
+	<div class="navbar3">
+  		<a href="#home" class="active"></a>
+	</div>
+</body>
+</html>
